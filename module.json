@@ -1,0 +1,22 @@
+{
+  "id": "testing-shared",
+  "title": "Testing Shared",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "packs": [
+    {
+      "name": "test-table",
+      "label": "Test Table",
+      "path": "packs/test-table",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
